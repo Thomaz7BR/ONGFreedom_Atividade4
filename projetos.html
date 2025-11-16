@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos Sociais - ONG Freedom</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <img src="img/logo.png" class="logo-img" alt="Logo">
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+    </nav>
+
+    <div class="botoes-modos">
+        <button id="modo-contraste">Contraste</button>
+        <button id="modo-escuro">Escuro</button>
+        <button class="hamburger">☰</button>
+    </div>
+</header>
+
+
+    <main>
+        <section id="voluntariado">
+           <section class="voluntarios-section">
+    <div class="voluntarios-container">
+        <div class="voluntarios-texto">
+            <h2>Seja um Voluntário 💚</h2>
+            <p>Participe das nossas ações e ajude a transformar vidas!  
+            Preencha o formulário abaixo e entre para nossa rede de solidariedade.</p>
+
+            <form class="form-voluntario">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required placeholder="Ex: Maria Silva">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required placeholder="Ex: maria@email.com">
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="area">Área de interesse:</label>
+                <select id="area" name="area" required>
+                    <option value="">Selecione uma área...</option>
+                    <option value="educacao">Educação</option>
+                    <option value="meioambiente">Meio Ambiente</option>
+                    <option value="saude">Saúde</option>
+                    <option value="eventos">Eventos</option>
+                    <option value="administrativo">Administrativo</option>
+                </select>
+
+                <label for="mensagem">Por que quer ser voluntário?</label>
+                <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte um pouco sobre sua motivação..."></textarea>
+
+                <button type="submit">Enviar Inscrição</button>
+            </form>
+        </div>
+
+        <div class="voluntarios-imagem">
+            <img src="img/voluntariados.jpg" alt="Voluntário ajudando em projeto social">
+        </div>
+    </div>
+</section>
+
+
+        <section id="doacoes">
+          
+<section class="doacao-section">
+    <div class="doacao-container">
+        <div class="doacao-texto">
+            <h2>Como Doar</h2>
+            <p>Suas doações ajudam a transformar vidas! Contribua com nossos projetos sociais e apoie quem mais precisa.</p>
+            <a href="https://www.vakinha.com.br" target="_blank" class="doar-btn">Doe Agora</a>
+        </div>
+        <div class="doacao-imagem">
+            <img src="img/projeto2.jpg" alt="Imagem de doação">
+        </div>
+    </div>
+</section>
+
+     
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ONG Freedom. Todos os direitos reservados.</p>
+    </footer>
+<script src="spa.js" type="module"></script>
+  <script src="js/accessibility.js"></script>
+
+<script src="js/menu.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
