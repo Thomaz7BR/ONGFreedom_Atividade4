@@ -77,32 +77,37 @@ Salvamento do nome no LocalStorage
 
 Reaproveitamento do nome nas outras páginas
 
-📁 Estrutura do Projeto
-📦 projeto
- ┣ 📁 css
- ┃ ┗ style.css
- ┣ 📁 img
- ┃ ┣ logo.png
- ┃ ┣ projeto1.jpg
- ┃ ┣ projeto2.jpg
- ┃ ┗ voluntariados.jpg
- ┣ 📁 js
- ┃ ┣ spa.js
- ┃ ┣ template.js
- ┃ ┣ accessibility.js
- ┃ ┣ storage.js
- ┃ ┣ menu.js
- ┃ ┗ index.js
- ┣ 📁 min
- ┃ ┣ spa.min.js
- ┃ ┣ accessibility.min.js
- ┃ ┣ storage.min.js
- ┃ ┣ menu.min.js
- ┃ ┗ index.min.js
- ┣ index.html
- ┣ projetos.html (se existente)
- ┣ cadastro.html (se existente)
- ┗ README.md
+## 📁 Estrutura do Projeto
+
+Entrega 4/
+│── css/
+│ └── style.css
+│
+│── img/
+│ ├── logo.png
+│ ├── projeto1.jpg
+│ ├── projeto2.jpg
+│ └── voluntariados.jpg
+│
+│── js/
+│ ├── spa.js
+│ ├── template.js
+│ ├── accessibility.js
+│ ├── storage.js
+│ ├── menu.js
+│ └── index.js
+│
+│── min/
+│ ├── spa.min.js
+│ ├── accessibility.min.js
+│ ├── storage.min.js
+│ ├── menu.min.js
+│ └── index.min.js
+│
+│── index.html
+│── projetos.html
+│── cadastro.html
+└── README.md
 
 *  Branches do Git
 
