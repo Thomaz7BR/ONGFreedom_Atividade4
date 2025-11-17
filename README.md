@@ -150,9 +150,9 @@ Baixe o repositório:
 git clone https://github.com/Thomaz7BR/ONGFreedom_Atividade4.git
 
 
-Abra o index.html no navegador.
+*Necessita de servidor local*
 
-Não precisa de servidor local, o projeto é totalmente estático.
+
 
 *  Tecnologias Utilizadas
 
