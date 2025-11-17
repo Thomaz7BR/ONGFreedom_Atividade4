@@ -142,7 +142,7 @@ formulários
 
 Baixe o repositório:
 
-git clone https://github.com/usuario/ong-freedom.git
+git clone https://github.com/Thomaz7BR/ONGFreedom_Atividade4.git
 
 
 Abra o index.html no navegador.
