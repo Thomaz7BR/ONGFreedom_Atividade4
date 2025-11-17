@@ -150,7 +150,14 @@ Baixe o repositório:
 git clone https://github.com/Thomaz7BR/ONGFreedom_Atividade4.git
 
 
-*Necessita de servidor local*
+
+
+
+
+*NECESSITA DE SERVIDOR LOCAL(USEI O LIVE SERVER)*
+
+
+
 
 
 
